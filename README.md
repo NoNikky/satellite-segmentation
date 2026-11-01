@@ -17,27 +17,14 @@ The project explores and compares two segmentation models trained on different r
 
 ### Per-Class IoU
 
-**Model 1 — DeepGlobe**
-
-| Class | IoU |
-|---|---:|
-| Urban | 0.73 |
-| Agriculture | 0.84 |
-| Rangeland | 0.36 |
-| Forest | 0.71 |
-| Water | 0.69 |
-| Barren Land | 0.49 |
-
-**Model 2 — LoveDA**
-
-| Class | IoU |
-|---|---:|
-| Building | 0.40 |
-| Road | 0.73 |
-| Water | 0.70 |
-| Barren Land | 0.80 |
-| Forest | 0.63 |
-| Agriculture | 0.79 |
+| **Model 1 — DeepGlobe** | **IoU** | **Model 2 — LoveDA** | **IoU** |
+|---|---:|---|---:|
+| Urban | 0.73 | Building | 0.40 |
+| Agriculture | 0.84 | Road | 0.73 |
+| Rangeland | 0.36 | Water | 0.70 |
+| Forest | 0.71 | Barren Land | 0.80 |
+| Water | 0.69 | Forest | 0.63 |
+| Barren Land | 0.49 | Agriculture | 0.79 |
 
 
 ### Qualitative Results
